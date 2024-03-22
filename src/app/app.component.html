@@ -1,1 +1,18 @@
-<router-outlet></router-outlet>
+<div class="ui container">
+  <div class="ui secondary pointing menu">
+    <a routerLink="/" class="item">Angular Email</a>
+
+    <div class="right menu">
+      <ng-container *ngIf="signedin">
+        <a routerLink="/inbox" routerLinkActive="active" class="item">Inbox</a>
+        <a routerLink="/signout" routerLinkActive="active" class="item">Sign Out</a>
+      </ng-container>
+      <ng-container *ngIf="!signedin"> 
+        <a routerLink="/" routerLinkActive="active" class="item">Sign In</a>
+        <a routerLink="/signup" routerLinkActive="active" class="item">Sign Up</a>
+      </ng-container>
+
+    </div>
+  </div>
+  <router-outlet></router-outlet>
+</div>
