@@ -1,4 +1,4 @@
-<form class="ui form" [formGroup]="emailForm">
+<form (ngSubmit)="onSubmit()" class="ui form" [formGroup]="emailForm">
   <app-input [control]="emailForm.get('to')" inputType="email" label="To">
   </app-input>
 
@@ -12,7 +12,11 @@
   >
   </app-input>
 
-  <app-input [control]="emailForm.get('text')" inputType="text" label="Content">
+  <app-input
+    controlType="textarea"
+    [control]="emailForm.get('text')"
+    label="Content"
+  >
   </app-input>
 
   <button class="ui button primary">Send</button>
