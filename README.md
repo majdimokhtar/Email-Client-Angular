@@ -1,6 +1,15 @@
-# Emailclient
+---
+title: Angular Email Client with Authentication
+---
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
+This project is an Angular-based email client application with authentication features. Users can sign in securely to access their email inbox, compose and send emails, view received emails, and manage their account settings.
+
+## Features
+
+- **Authentication**: Secure user authentication using [authentication method].
+- **Email Inbox**: View a list of received emails with sender, subject, and timestamp.
+- **Compose Email**: Compose and send emails to other users.
+- **View Email**: View full content of received emails.
 
 ## Development server
 
@@ -25,3 +34,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Usage
+
+- **Sign Up**: Create a new account by providing your email address and password.
+- **Sign In**: Log in to your account with your email address and password.
+- **Email Inbox**: View your received emails and navigate to individual emails for details.
+- **Compose Email**: Compose a new email by clicking on the "Compose" button and entering recipient, subject, and message.
+
+## Technologies Used
+
+- Angular
