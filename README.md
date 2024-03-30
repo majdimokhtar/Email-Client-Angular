@@ -5,8 +5,8 @@ This project is an Angular-based email client application with authentication fe
 
 ## Features
 
-- **Authentication**: Secure user authentication using [authentication method].
-- **Email Inbox**: View a list of received emails with sender, subject, and timestamp.
+- **Authentication**: Secure user authentication.
+- **Email Inbox**: View a list of received emails with sender, subject.
 - **Compose Email**: Compose and send emails to other users.
 - **View Email**: View full content of received emails.
 
