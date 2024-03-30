@@ -1,7 +1,7 @@
 
-## title: Angular Email Client with Authentication
+## Angular Email Client with Authentication
 
-This project is an Angular-based email client application with authentication features. Users can sign in securely to access their email inbox, compose and send emails, view received emails, and manage their account settings.
+This project is an Angular-based email client application with authentication features. Users can sign in securely to access their email inbox, compose and send emails and view received emails.
 
 ## Features
 
